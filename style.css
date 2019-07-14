@@ -2,7 +2,9 @@
  * Stuff and Stuff: #FC4A1A
  * Buttons: #F7B733
  * Tiny Text: #DFDCE3
- * Big Text: #FFFFFF
+ * Big Text & Navigations: #FFFFFF
+ * Navigation Buttons Interchange: #454545 & #E6E6E6
+ * Navigation Buttons Hover Interchange: 
  */
 
 .page {
@@ -14,6 +16,17 @@
 	padding: 0px;
 	background-image: url("images/noice.png");
 }
+
+/* Header Stuff */
+.headerDiv {
+	width: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 5px;
+	background-color: #4ABDAC;
+	text-align: center;
+	border-radius: 4px;
+}
 .mainHeaderTitle {
 	margin: 10px;
 	padding: 10px;
@@ -21,9 +34,43 @@
 	color: #FFFFFF;
 	font-size: 69px;
 }
-.headerDiv {
+/* Navigations */
+.navigations {
 	margin: 0px;
 	padding: 5px;
-	background-color: #4ABDAC;
 	text-align: center;
+}
+.Home {
+	margin: 5px;
+	padding: 6px;
+	border-radius: 6.5px;
+	background-color: #E6E6E6;
+	color: #454545;
+	width: auto;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+.Home:hover {
+	background-color: #454545;
+	color: #E6E6E6;
+}
+
+/* Content Stuff */
+.content {
+	border-radius: 4px;
+	background-color: #4ABDAC;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.subheading1 {
+	padding: 5px;
+	text-align: right;
+	margin: 5px;
+	color: #FFFFFF;
 }
