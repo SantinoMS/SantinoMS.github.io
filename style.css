@@ -47,8 +47,8 @@
 	background-color: #E6E6E6;
 	color: #454545;
 	width: auto;
-	-webkit-transition-duration: 0.4s; /* Safari */
-	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.6s; /* Safari */
+	transition-duration: 0.6s;
 }
 .Home:hover {
 	background-color: #454545;
