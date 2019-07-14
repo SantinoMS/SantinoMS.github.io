@@ -1,8 +1,29 @@
+/* BG color: #4ABDAC
+ * Stuff and Stuff: #FC4A1A
+ * Buttons: #F7B733
+ * Tiny Text: #DFDCE3
+ * Big Text: #FFFFFF
+ */
 
-/*.mainHeader {
-	margin: 25px;
-	padding: 10px;
-	color: gray;
-	text-align: centre;
+.page {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	padding: 0px;
+	background-image: url("images/noice.png");
 }
-*/
+.mainHeaderTitle {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 69px;
+}
+.headerDiv {
+	margin: 0px;
+	padding: 5px;
+	background-color: #4ABDAC;
+	text-align: center;
+}
