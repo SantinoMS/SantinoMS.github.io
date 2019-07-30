@@ -36,25 +36,61 @@
 }
 /* Navigations */
 .navigations {
-	margin: 0px;
+	margin: auto;
 	padding: 5px;
+	width: 50%;
 	text-align: center;
+	display: flex;
 }
 .Home {
+	border: 1px solid #000000;
+	text-align: center;
 	margin: 5px;
 	padding: 6px;
 	border-radius: 6.5px;
 	background-color: #E6E6E6;
 	color: #454545;
-	width: auto;
-	-webkit-transition-duration: 0.6s; /* Safari */
+	width: 52px;
+	-webkit-transition-duration: 0.6s;
 	transition-duration: 0.6s;
 }
 .Home:hover {
 	background-color: #454545;
 	color: #E6E6E6;
+	border: 1px solid #FFFFFF;
 }
-
+.Projects {
+	border: 1px solid #000000;
+	text-align: center;
+	margin: 5px;
+	padding: 6px;
+	border-radius: 6.5px;
+	background-color: #E6E6E6;
+	color: #454545;
+	width: 66px;
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+}
+.Projects:hover {
+	background-color: #454545;
+	color: #E6E6E6;
+}
+.EmptyPage {
+	border: 1px solid #000000;
+	text-align: center;
+	margin: 5px;
+	padding: 6px;
+	border-radius: 6.5px;
+	background-color: #E6E6E6;
+	color: #454545;
+	width: 94px;
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+}
+.EmptyPage:hover {
+	background-color: #454545;
+	color: #E6E6E6;
+}
 /* Content Stuff */
 .content {
 	border-radius: 4px;
