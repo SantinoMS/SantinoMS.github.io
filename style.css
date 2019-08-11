@@ -38,9 +38,9 @@
 .navigations {
 	margin: auto;
 	padding: 5px;
-	width: 50%;
 	text-align: center;
 	display: flex;
+	justify-content: center;
 }
 .Home {
 	border: 1px solid #000000;
