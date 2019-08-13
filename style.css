@@ -12,7 +12,7 @@
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 75%;
+	width: 700px;
 	padding: 0px;
 	background-image: url("images/noice.png");
 }
@@ -43,7 +43,7 @@
 	justify-content: center;
 }
 .Home {
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	text-align: center;
 	margin: 5px;
 	padding: 6px;
@@ -60,7 +60,7 @@
 	border: 1px solid #FFFFFF;
 }
 .Projects {
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	text-align: center;
 	margin: 5px;
 	padding: 6px;
@@ -74,9 +74,10 @@
 .Projects:hover {
 	background-color: #454545;
 	color: #E6E6E6;
+	border: 1px solid #FFFFFF;
 }
 .EmptyPage {
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	text-align: center;
 	margin: 5px;
 	padding: 6px;
@@ -90,6 +91,7 @@
 .EmptyPage:hover {
 	background-color: #454545;
 	color: #E6E6E6;
+	border: 1px solid #FFFFFF;
 }
 /* Content Stuff */
 .content {
@@ -107,6 +109,6 @@
 .subheading1 {
 	padding: 5px;
 	text-align: right;
-	margin: 5px;
+	margin: 10px;
 	color: #FFFFFF;
 }
